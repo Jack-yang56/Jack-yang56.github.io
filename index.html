@@ -59,6 +59,8 @@
 	        
 				<li><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
 	        
+				<li><a href="/archives/index.html">归档</a></li>
+	        
 			</ul>
 		</nav>
 		<nav>
@@ -118,6 +120,8 @@
 			
 				
 			
+				
+			
 			
 			
 			<nav class="header-nav">
@@ -133,12 +137,14 @@
 			</nav>
 
 			<nav class="header-menu js-header-menu">
-				<ul style="width: 50%">
+				<ul style="width: 70%">
 				
 				
-					<li style="width: 50%"><a href="/">主页</a></li>
+					<li style="width: 33.333333333333336%"><a href="/">主页</a></li>
 		        
-					<li style="width: 50%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+					<li style="width: 33.333333333333336%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+		        
+					<li style="width: 33.333333333333336%"><a href="/archives/index.html">归档</a></li>
 		        
 				</ul>
 			</nav>
@@ -166,6 +172,9 @@
     </h1>
   
 
+		<!--显示阅读次数-->
+		
+		<!--显示阅读次数完毕-->
         
         <a href="/2020/05/28/Markdown%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/" class="archive-article-date">
   	<time datetime="2020-05-28T06:43:26.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-05-28</time>
@@ -175,87 +184,38 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="Markdown快速入门（typora）"><a href="#Markdown快速入门（typora）" class="headerlink" title="Markdown快速入门（typora）"></a>Markdown快速入门（typora）</h1><h2 id="1、标题："><a href="#1、标题：" class="headerlink" title="1、标题："></a>1、标题：</h2><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//标题语法：</span></span><br><span class="line">#一级标题</span><br><span class="line">##二级标题</span><br><span class="line">###三级标题</span><br><span class="line">####四级标题</span><br><span class="line">#####五级标题</span><br><span class="line">######六级标题</span><br></pre></td></tr></table></figure>
-
-<p>#一级标题</p>
-<p>##二级标题</p>
-<p>###三级标题</p>
-<p>####四级标题</p>
-<p>#####五标题</p>
-<p>######六级标题</p>
-<hr>
-<h2 id="2、代码块："><a href="#2、代码块：" class="headerlink" title="2、代码块："></a>2、代码块：</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//插入代码块语法：</span></span><br><span class="line">​```java</span><br><span class="line">    <span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"Hello World"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">    <span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"Hello World"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="3、字体"><a href="#3、字体" class="headerlink" title="3、字体"></a>3、字体</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//字体语法：</span></span><br><span class="line"><span class="comment">//加粗</span></span><br><span class="line">**加粗**</span><br><span class="line"><span class="comment">//代码高亮</span></span><br><span class="line">==代码高亮==</span><br><span class="line"><span class="comment">//删除线</span></span><br><span class="line">~~删除线~~</span><br><span class="line"><span class="comment">//斜体</span></span><br><span class="line">*斜体*</span><br></pre></td></tr></table></figure>
-
-<p>//加粗<br><strong>加粗</strong><br>//代码高亮<br>==代码高亮==<br>//删除线<br><del>删除线</del><br>//斜体<br><em>斜体</em></p>
-<hr>
-<h2 id="4、引用"><a href="#4、引用" class="headerlink" title="4、引用"></a>4、引用</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//引用语法：</span></span><br><span class="line">&gt;作者：羊羊</span><br><span class="line">&gt;&gt;作者：羊羊</span><br><span class="line">&gt;&gt;&gt;作者：羊羊</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>作者：羊羊</p>
-<blockquote>
-<p>作者：羊羊</p>
-<blockquote>
-<p>作者：羊羊</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<hr>
-<h2 id="5、分割线"><a href="#5、分割线" class="headerlink" title="5、分割线"></a>5、分割线</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//分割线语法：</span></span><br><span class="line">分割线（第一种） ---</span><br><span class="line">分割线（第二种） ***</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="6、图片插入"><a href="#6、图片插入" class="headerlink" title="6、图片插入"></a>6、图片插入</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//插入在线图片或本地图片语法：</span></span><br><span class="line">![蒲公英](/img/pugongying.jpeg) --图片路径(绝对路径和相对路径都可)</span><br></pre></td></tr></table></figure>
-
-<hr>
-<p><img src="http://image.biaobaiju.com/uploads/20190508/18/1557310011-uVcARelNib.jpg" alt="蒲公英"></p>
-<hr>
-<h2 id="7、超链接"><a href="#7、超链接" class="headerlink" title="7、超链接"></a>7、超链接</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//超链接语法：</span></span><br><span class="line">[百度](https:<span class="comment">//www.baidu.com) --链接地址</span></span><br></pre></td></tr></table></figure>
-
-<p><a href="https://www.baidu.com" target="_blank" rel="noopener">百度</a></p>
-<hr>
-<h2 id="8、列表"><a href="#8、列表" class="headerlink" title="8、列表"></a>8、列表</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//无序列表</span></span><br><span class="line">- 目录<span class="number">1</span></span><br><span class="line">- 目录<span class="number">2</span></span><br><span class="line">- 目录<span class="number">3</span></span><br><span class="line">    </span><br><span class="line"><span class="comment">//有序列表</span></span><br><span class="line"><span class="number">1</span> +.+ 名称</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><p>目录1</p>
-</li>
-<li><p>目录2</p>
-</li>
-<li><p>目录3</p>
-</li>
-</ul>
-<ol>
-<li>首页</li>
-<li>分类</li>
-</ol>
-<hr>
-<h2 id="9、表格"><a href="#9、表格" class="headerlink" title="9、表格"></a>9、表格</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//创建表格语法：</span></span><br><span class="line">|英语|化学|体育|</span><br><span class="line">|:---|:---:|:---:|</span><br><span class="line">|<span class="number">100</span>|<span class="number">100</span>|<span class="number">100</span>|</span><br><span class="line"><span class="comment">//建议快捷键创建表格（Ctrl+T）</span></span><br></pre></td></tr></table></figure>
-
-<table>
-<thead>
-<tr>
-<th align="left">英语</th>
-<th align="center">化学</th>
-<th align="center">体育</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">100</td>
-<td align="center">100</td>
-<td align="center">100</td>
-</tr>
-</tbody></table>
-
+        <h2 id="Markdown快速入门（typora）"><a href="#Markdown快速入门（typora）" class="headerlink" title="Markdown快速入门（typora）"></a>Markdown快速入门（typora）</h2>
+        
+          <a class="article-more-a" style="display:none;" href="/2020/05/28/Markdown%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/#more">more >></a>
+        
       
-
+		<!-- 增加版权声明 -->
+		
+		
+		  <div class="declare" hidden="hidden"></div>
+		
+		<!-- 增加版权声明结束 -->
       
     </div>
     <div class="article-info article-info-index">
       
+        <div class="article-pop-out tagcloud">
+          <i class="icon-tuding"></i>
+          <a class="article-tag-list-link color3">置顶</a>
+        </div>
       
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -301,6 +261,9 @@
     </h1>
   
 
+		<!--显示阅读次数-->
+		
+		<!--显示阅读次数完毕-->
         
         <a href="/2020/05/27/Java%E5%A4%9A%E7%BA%BF%E7%A8%8B/" class="archive-article-date">
   	<time datetime="2020-05-27T10:27:17.508Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-05-27</time>
@@ -310,38 +273,17 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="程序、进程、线程的理解"><a href="#程序、进程、线程的理解" class="headerlink" title="程序、进程、线程的理解"></a>程序、进程、线程的理解</h2><p>  1.程序(programm)概念：是为完成特定任务、用某种语言编写的一组指令的集合。即指一段静态的代码。<br>  2.进程(process)概念：程序的一次执行过程，或是正在运行的一个程序。说明：进程作为资源分配的单位，系统     在运行时会为每个进程分配不同的内存区域<br>  3.线程(thread)概念：进程可进一步细化为线程，是一个程序内部的一条执行路径。说明线程作为调度和执行的单位，每个线程拥独立的运行栈和程序计数器(pc)，线程切换的开销小。</p>
-<hr>
-<h2 id="并发与并行"><a href="#并发与并行" class="headerlink" title="并发与并行"></a>并发与并行</h2><p>1.单核CPU与多核CPU的理解：单核CPU，其实是一种假的多线程，因为在一个时间单元内，也只能执行一个线程的任务。例如：虽然有多车道，但是收费站只有一个工作人员在收费，只有收了费才能通过，那么CPU就好比收费人员。如果某个人不想交钱，那么收费人员可以把他“挂起”（晾着他，等他想通了，准备好了钱，再去收费）但是因为CPU时间单元特别短，因此感觉不出来。如果是多核的话，才能更好的发挥多线程的效率。（现在的服务器都是多核的）一个Java应用程序java.exe，其实至少三个线程：main()主线程，gc()垃圾回收线程，异常处理线程。当然如果发生异常，会影响主线程。</p>
-<p>2.并行与并发的理解<br>并行：多个CPU同时执行多个任务。比如：多个人同时做不同的事。<br>并发：一个CPU(采用时间片)同时执行多个任务。比如：秒杀、多个人做同一件事</p>
-<hr>
-<h2 id="创建多线程的两种方式"><a href="#创建多线程的两种方式" class="headerlink" title="创建多线程的两种方式"></a>创建多线程的两种方式</h2><p>方式一：继承Thread类的方式：</p>
-<p>1.创建一个继承于Thread类的子类</p>
-<p>2.重写Thread类的run() –&gt;将此线程执行的操作声明在run()中</p>
-<p>3.创建Thread类的子类的对象</p>
-<p>4.通过此对象调用start()：①启动当前线程 ② 调用当前线程的run()</p>
-<p>方式二：实现Runnable接口的方式：</p>
-<p>1.创建一个实现了Runnable接口的类</p>
-<p>2.实现类去实现Runnable中的抽象方法：run()</p>
-<p>3.创建实现类的对象</p>
-<p>4.将此对象作为参数传递到Thread类的构造器中，创建Thread类的对象</p>
-<p>5.通过Thread类的对象调用start()</p>
-<hr>
-<h2 id="Thread类中的常用方法"><a href="#Thread类中的常用方法" class="headerlink" title="Thread类中的常用方法"></a>Thread类中的常用方法</h2><ol>
-<li>start():启动当前线程；调用当前线程的run()</li>
-<li>run(): 通常需要重写Thread类中的此方法，将创建的线程要执行的操作声明在此方法中</li>
-<li>currentThread():静态方法，返回执行当前代码的线程</li>
-<li>getName():获取当前线程的名字</li>
-<li>setName():设置当前线程的名字</li>
-<li>yield():释放当前cpu的执行权</li>
-<li>join():在线程a中调用线程b的join(),此时线程a就进入阻塞状态，直到线程b完全执行完以后，线程a才结束阻塞状态。</li>
-<li>stop():已过时。当执行此方法时，强制结束当前线程。</li>
-<li>sleep(long millitime):让当前线程“睡眠”指定的millitime毫秒。在指定的millitime毫秒时间内，当前线程是阻塞状态。</li>
-<li>isAlive():判断当前线程是否存活</li>
-</ol>
-
+        <h2 id="多线程"><a href="#多线程" class="headerlink" title="多线程"></a>多线程</h2>
+        
+          <a class="article-more-a" style="display:none;" href="/2020/05/27/Java%E5%A4%9A%E7%BA%BF%E7%A8%8B/#more">more >></a>
+        
       
-
+		<!-- 增加版权声明 -->
+		
+		
+		  <div class="declare" hidden="hidden"></div>
+		
+		<!-- 增加版权声明结束 -->
       
     </div>
     <div class="article-info article-info-index">
@@ -401,6 +343,8 @@
     </div>
   </div>
 </footer>
+<!--页面点击小红心-->
+<script type="text/javascript" src="/love.js"></script>
     </div>
     <script>
 	var yiliaConfig = {
@@ -468,6 +412,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">随笔</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
@@ -517,7 +465,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">面朝大海&lt;br&gt;&lt;br&gt;春暖花开&lt;br&gt;</div>
   	  	
     	</section>
     
